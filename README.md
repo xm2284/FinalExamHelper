@@ -2,6 +2,13 @@
 
 > 大学生期末复习、AI 题库生成与智能刷题平台
 
+[![React](https://img.shields.io/badge/React-20232a.svg?logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 一个本地优先的单用户学习系统，把“整理资料 → 生成题目 → 人工审核 → 刷题 → 错题复盘 → 学习分析”连接成完整闭环。
 
 系统支持解析已有试题，也可以通过 OpenAI-compatible API 根据课程资料生成题目。所有生成内容都会先进入审核区，不会未经确认直接发布。
@@ -98,8 +105,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/xm2284/2.git
-cd 2
+git clone https://github.com/xm2284/FinalExamHelper.git
+cd FinalExamHelper
 ```
 
 ### 2. 启动后端
